@@ -38,7 +38,7 @@
 
 ## Break (10:30 AM - 10:45 AM)
 
-### 4. Hands-on Development Session (11:30 AM - 12:30 PM)
+### 4. Hands-on Development Session (10:45 AM - 12:30 PM)
 - Practical examples using Jupyter Notebook
 - Translation work (Swahili example)
 - Documentation contributions

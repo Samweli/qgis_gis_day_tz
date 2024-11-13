@@ -1,1 +1,1 @@
-# QGIS hackin on GIS Day Tanzania
+# QGIS hacking on GIS Day Tanzania

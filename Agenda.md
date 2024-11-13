@@ -1,4 +1,4 @@
-# QGIS Development hackathon overview
+# QGIS Development hackathon agenda
 **Date:** November 15, 2024  
 **Time:** 9:00 AM - 1:00 PM (4 hours)
 

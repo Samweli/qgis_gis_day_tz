@@ -1,89 +1,73 @@
-# QGIS Development Agenda
+# QGIS Development hackathon overview
+**Date:** November 15, 2024  
+**Time:** 9:00 AM - 1:00 PM (4 hours)
 
-## 1. Introduction (5 minutes)
-- Brief introduction to QGIS and its significance as an open-source Geographic Information System.
-- Overview of the session goals:
-  - Setting up a development environment on Linux
-  - Understanding the basics of QGIS development
-  - Navigating through QGIS documentation and contributing to the project.
+## Prerequisites
+- Personal Computer with Linux operating system
+- Minimum 8 GB RAM
+- More than 40 GB internal drive space
+- GitHub account
+- Jupyter Notebook (will be provided)
+- Requirements documentation (will be provided)
 
----
+## Timeline
 
-## 2. Setting Up QGIS Development Environment on Linux (15 minutes)
-### a. Prerequisites (5 minutes)
-- Install essential dependencies on Ubuntu:
-    ```bash
-    sudo apt-get update
-    sudo apt-get install build-essential cmake git python3-dev
-    ```
+### 1. Introduction to QGIS (9:00 AM - 9:15 AM)
+- QGIS basics and fundamentals
+- QGIS use cases and benefits
+- Overview of QGIS development components (C++, Qt)
 
-### b. Setting Up QGIS Development Environment (10 minutes)
-- Clone QGIS repository and set up QGIS development environment using `qgis3-build-deps`:
-    ```bash
-    git clone https://github.com/qgis/QGIS.git
-    cd QGIS
-    ```
-- Building QGIS from source and installing dependencies like Qt and GDAL.
-- Setting up a Python virtual environment for development (if applicable).
+### 2. QGIS Core Contribution Process (9:15 AM - 10:30 AM)
+- Understanding the contribution workflow
+- Making changes and patches
+- Documentation requirements
+- Code review process
+- Maintenance and support responsibilities
 
----
+### 3. Development Environment Setup (10:35 AM - 11:30 AM)
+#### Standard Approach
+- Setting up development environment
+- Building from source
+- Testing in Docker environment
 
-## 3. Basic Concepts in QGIS Development (15 minutes)
-### a. QGIS Code Structure (5 minutes)
-- Overview of key directories in the QGIS repository:
-    - `src/`: Core C++ code
-    - `python/`: Python bindings and plugins
-    - `tests/`: Unit tests
-- Brief walkthrough of important files and directories.
 
-### b. Key Development Tools (10 minutes)
-- **QGIS Desktop**: Using QGIS Desktop to test development work.
-- **QGIS Python API (PyQGIS)**: Introduction to scripting within QGIS using Python:
-    ```python
-    from qgis.core import QgsVectorLayer
-    layer = QgsVectorLayer("/path/to/your/shapefile.shp", "Layer name", "ogr")
-    if not layer.isValid():
-        print("Layer failed to load!")
-    ```
+#### Docker Approach
+- Docker setup for QGIS development
+- Building with Docker
+- Testing in Docker environment
 
----
+## Break (10:30 AM - 10:45 AM)
 
-## 4. Contributing to QGIS (40 minutes)
-### a. Forking and Pull Requests (5 minutes)
-- Fork the QGIS repository and create a new branch for development.
-- Git workflow for making changes and submitting pull requests:
-    ```bash
-    git checkout -b my-feature-branch
-    git add .
-    git commit -m "Add feature"
-    git push origin my-feature-branch
-    ```
-- Submitting a pull request on GitHub for review.
+### 4. Hands-on Development Session (11:30 AM - 12:30 PM)
+- Practical examples using Jupyter Notebook
+- Translation work (Swahili example)
+- Documentation contributions
+- Feature development:
+  - Small feature implementation
+  - Selecting and working on issues
+  - Live code changes demonstration
 
-### b. Coding Guidelines and Reviews (25 minutes)
-- QGIS coding standards (PEP8 for Python, C++ coding standards).
-- Importance of writing unit tests and documentation.
-- Overview of the pull request review process.
+### 5. Additional Topics and Conclusion (12:30 PM - 1:00 PM)
+- Plugin development introduction
+- Using QGIS as a Python package
+- Comparison: Standard vs Docker approach
+- Best practices and recommendations
+- Q&A session
+- Wrap-up and next steps
 
----
+## Important Notes
+- Participants are encouraged to familiarize themselves with the standard development approach
+- The Jupyter Notebook will be provided for hands-on exercises
+- Documentation and requirements will be shared with participants
+- Questions are welcome throughout the session
 
-## 5. QGIS Documentation and Resources (15 minutes)
-### a. Official QGIS Documentation (10 minutes)
-- Walkthrough of the [QGIS Developer Documentation](https://qgis.org/en/docs/).
-- Key sections to look for setting up development environments, coding guidelines, and API references.
+## Resources
+- QGIS Documentation
+- GitHub Repository (github.com/samweli/qgis_gis_day_tz)
+  - Workshop Materials
+  - Jupyter Notebook
+  - Requirements Documentation
 
-### b. Other Key Resources (5 minutes)
-- **QGIS StackExchange**: Troubleshooting and learning from others.
-- **QGIS IRC and Mailing Lists**: Engaging with the community for support and discussion.
-- **QGIS Wiki**: Contributing to the community wiki for additional documentation.
-
----
-
-## 6. Live Q&A and Wrap-Up (20 minutes)
-- Open the floor for any questions related to the development setup or contributions.
-- Final thoughts on how to stay involved with QGIS development, encourage contributions, and offer resources for continued learning.
-
----
 
 ## Key Takeaways:
 - A solid development setup on Linux is crucial for QGIS contributions.

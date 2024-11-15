@@ -3,28 +3,28 @@
 **Time:** 9:00 AM - 1:00 PM (4 hours)
 
 ## Prerequisites
-- Personal Computer with Linux operating system
-- Minimum 8 GB RAM
+- Personal Computer with a Linux OS(recommended)
+- Recommend Minimum 8 GB RAM 
 - More than 40 GB internal drive space
 - GitHub account
-- Jupyter Notebook (will be provided)
-- Requirements documentation (will be provided)
+- Jupyter Notebook tool installed
+- Docker tool installed inside PC
 
 ## Timeline
 
-### 1. Introduction to QGIS (9:00 AM - 9:15 AM)
+### 1. Introduction to QGIS (9:00 AM - 9:10 AM)
 - QGIS basics and fundamentals
 - QGIS use cases and benefits
 - Overview of QGIS development components (C++, Qt)
 
-### 2. QGIS Core Contribution Process (9:15 AM - 10:30 AM)
+### 2. QGIS Core Contribution Process (9:10 AM - 09:20 AM)
 - Understanding the contribution workflow
 - Making changes and patches
 - Documentation requirements
 - Code review process
 - Maintenance and support responsibilities
 
-### 3. Development Environment Setup (10:35 AM - 11:30 AM)
+### 3. Development Environment Setup (09:20 AM - 10:45 AM)
 #### Standard Approach
 - Setting up development environment
 - Building from source
@@ -36,14 +36,14 @@
 - Building with Docker
 - Testing in Docker environment
 
-## Break (10:30 AM - 10:45 AM)
+## Break (10:45 AM - 11:00 AM)
 
-### 4. Hands-on Development Session (10:45 AM - 12:30 PM)
+### 4. Hands-on Development Session (11:00 AM - 12:30 PM)
 - Practical examples using Jupyter Notebook
 - Translation work (Swahili example)
 - Documentation contributions
 - Feature development:
-  - Small feature implementation
+  - Small features implementation
   - Selecting and working on issues
   - Live code changes demonstration
 
@@ -62,11 +62,9 @@
 - Questions are welcome throughout the session
 
 ## Resources
-- QGIS Documentation
 - GitHub Repository (github.com/samweli/qgis_gis_day_tz)
   - Workshop Materials
   - Jupyter Notebook
-  - Requirements Documentation
 
 
 ## Key Takeaways:

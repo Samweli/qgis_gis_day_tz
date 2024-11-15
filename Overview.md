@@ -8,6 +8,7 @@
     ```bash
     sudo apt-get update
     sudo apt-get install build-essential cmake git python3-dev
+    sudo apt-get install qttools5-dev-tools
     ```
 
 ### b. Setting Up QGIS Development Environment (5 minutes)

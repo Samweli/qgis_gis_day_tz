@@ -1,5 +1,13 @@
 # QGIS Development overview
 
+entrypoint: >
+      sh -c "Xvfb :99 -screen 0 1024x768x16 &
+              export DISPLAY=:99 &&
+              /tests_directory/scripts/docker/qgis-testing-entrypoint.sh && wait"
+
+docker-compose exec -T qgis-testing-environment sh -c "pip3 install -r /tests_directory/requirements_testing.txt"
+
+
 
 ## 1. Standard approach
 ### Setting Up QGIS Development Environment on Linux (15 minutes)
